@@ -16,7 +16,37 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        8/30/2020   3:32 PM                .atom
+d-----        9/29/2019   4:45 PM                .cache
+d-----       10/31/2019   9:29 PM                .idlerc
+d-----         7/4/2019  10:25 AM                .Origin
+d-----         7/4/2019  10:25 AM                .QtWebEngineProcess
+d-----        10/3/2019  10:11 AM                .thumbnails
+d-----        8/30/2020   3:32 PM                .vscode
+d-r---        8/13/2020  11:35 AM                3D Objects
+d-----        7/22/2019   8:22 PM                ansel
+d-----        3/31/2020  10:32 AM                Autodesk
+d-r---        8/13/2020  11:35 AM                Contacts
+d-r---        5/25/2020   9:24 PM                Creative Cloud Files
+d-r---        8/30/2020   3:32 PM                Desktop
+d-r---        8/31/2020   3:01 PM                Documents
+d-r---        8/31/2020   3:01 PM                Downloads
+d-r---        8/13/2020  11:35 AM                Favorites
+d-----        7/22/2019   5:25 PM                Heaven
+d-r---        8/13/2020  11:35 AM                Links
+d-r---        8/13/2020  11:35 AM                Music
+d-r---       11/25/2019   9:13 AM                OneDrive
+d-r---        8/13/2020  11:35 AM                Pictures
+d-r---        8/13/2020  11:35 AM                Saved Games
+d-r---        8/13/2020  11:35 AM                Searches
+d-----        10/6/2019  11:06 AM                Twitch
+d-r---        8/31/2020   5:15 PM                Videos
+-a----        8/31/2020   3:44 PM             89 .irbrc
+-a----        5/21/2020  11:59 AM           3839 AMDRM_Install.log
+-a----        5/21/2020  11:59 AM        2983744 AMD_RyzenMaster.log
+-a----        8/30/2020   3:38 PM              0 Untitled-1.py
 
 
 
@@ -29,7 +59,10 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        5/25/2020  11:18 PM                Adobe
+d-----        11/1/2019   7:09 PM                Assassin's Creed Odyssey
 
 
 
@@ -55,7 +88,7 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls : Cannot find path 'C:\Users\Jason\doesnotexist' because it does not exist.
 
 
 
@@ -65,7 +98,7 @@ Copy and paste the output below.
 ----------
 
 
-
+up arrow
 
 
 
@@ -73,7 +106,8 @@ Copy and paste the output below.
 6.  Name two flags that we used in this exercise.
 ----------
 
-
+-a
+-l
 
 
 
@@ -83,7 +117,7 @@ Copy and paste the output below.
 ----------
 
 
-
+ls
 
 
 
@@ -92,7 +126,7 @@ Copy and paste the output below.
 ----------
 
 
-
+documents
 
 
 
@@ -104,7 +138,13 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+foo : The term 'foo' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ foo
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (foo:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
 
 
 
@@ -117,7 +157,13 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+foo : The term 'foo' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ foo
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (foo:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
 
 
 
@@ -130,7 +176,10 @@ $ ls -a Desktop
 Identify the command, flag, argument, and prompt:
 ----------
 
-
+Prompt:$
+command:ls
+argument:document
+flag:-a
 
 
 
