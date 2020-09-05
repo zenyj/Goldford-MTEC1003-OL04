@@ -329,7 +329,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-C:\
+/home/zeny/mtec1003
 
 
 
@@ -345,7 +345,8 @@ Copy and paste the first 3 lines from the output into the space below.
 ----------
 
 
-
+drwxrwxrwx 1 zeny zeny 4096 Sep  4 20:42 foo
+drwxrwxrwx 1 zeny zeny 4096 Sep  4 20:41 food
 
 
 
@@ -358,7 +359,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/home/zeny
 
 
 
@@ -373,7 +374,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+/home/zeny
 
 
 
@@ -386,8 +387,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
-
+/home/zeny
 
 
 
@@ -402,7 +402,7 @@ Copy and paste the output into the space below.
 
 
 
-
+/home/zeny/mtec1003
 
 
 ==========
@@ -414,7 +414,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+JASON
 
 
 
@@ -423,7 +423,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+PWD
 
 
 
@@ -453,7 +453,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+mkdir -p /orange/strawberry/lemon/pineapple
 
 
 
@@ -465,7 +465,7 @@ Write the command you used to create the directory below:
 ----------
 
 
-
+mkdir aardvark
 
 
 
@@ -476,6 +476,9 @@ What is the modified date of the aardvark directory?
 ----------
 
 
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         9/4/2020   9:18 PM                aardvark
 
 
 
@@ -490,7 +493,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+ mkdir -p foo/bar/baz   
 
 
 
@@ -501,9 +504,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
-
-
+cd foo/bar/baz
 
 
 ==========
@@ -513,8 +514,7 @@ What command did you use?
 ----------
 
 
-
-
+cd ../..
 
 
 ==========
@@ -539,7 +539,7 @@ pwd
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
+-l
 
 
 
@@ -549,7 +549,7 @@ pwd
 ----------
 
 
-
+cd ~
 
 
 
