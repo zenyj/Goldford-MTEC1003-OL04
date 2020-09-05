@@ -197,7 +197,7 @@ Follow the instructions line-by-line.
 ----------
 
 
-
+mkdir mtec1003
 
 
 
@@ -205,7 +205,7 @@ Follow the instructions line-by-line.
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
 
-
+ cd mtec1003
 
 
 
@@ -222,7 +222,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/home/zeny/mtec1003
 
 
 
@@ -237,7 +237,9 @@ Copy and paste the output below.
 ----------
 
 
-
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         9/4/2020   8:41 PM                animals
 
 
 
@@ -251,7 +253,10 @@ Copy and paste the output below.
 ----------
 
 
-
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         9/4/2020   8:41 PM                animals
+d-----         9/4/2020   8:42 PM                food
 
 
 
@@ -265,7 +270,11 @@ Copy and paste the output below.
 ----------
 
 
-
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----         9/4/2020   8:41 PM                animals
+d-----         9/4/2020   8:43 PM                foo
+d-----         9/4/2020   8:42 PM                food
 
 
 
@@ -278,7 +287,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/home/zeny/mtec1003/foo/bar/baz/qux
 
 
 
@@ -292,7 +301,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/home/zeny/mtec1003/foo/bar
 
 
 
@@ -307,7 +316,7 @@ Copy and paste the output below.
 ----------
 
 
-
+/home/zeny/mtec1003/foo/bar/baz/qux
 
 
 
@@ -320,7 +329,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+C:\
 
 
 
@@ -513,7 +522,7 @@ What command did you use?
 ----------
 
 
-
+rmdir
 
 
 
@@ -521,7 +530,7 @@ What command did you use?
 37. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 
 
@@ -548,7 +557,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+location of a directory
 
 
 
@@ -558,7 +567,7 @@ What command did you use?
 ----------
 
 
-
+basically coputer files or folders
 
 
 
